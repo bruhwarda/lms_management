@@ -5,7 +5,7 @@ module.exports = {
   courseController: require("./course/courseController"),
   teacherController: require("./teacher/teacherController"),
   teacherCourseController: require("./teacher_course/teacherCourseController"),
-
+  authController: require("../controller/common/authenticationController"),
 
   //require work as import that we use in react
 };

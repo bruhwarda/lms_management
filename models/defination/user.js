@@ -34,6 +34,10 @@ const user = sequelize.define(
       allowNull: false,
       type: DataTypes.STRING,
     },
+    password: {
+      allowNull: false,
+      type: DataTypes.STRING,
+    },
   },
   {
     //these are global properties

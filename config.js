@@ -9,4 +9,5 @@ module.exports = {
     dialect: "postgres",
     logging: false, //raw query will not be written in terminal
   },
+  jwt: "8409d1923d431959c29da76c6af4fcbd",
 };
